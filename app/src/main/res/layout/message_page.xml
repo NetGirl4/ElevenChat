@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.elevenfifty.elevenchat.MessageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#fff">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_list"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:divider="@android:color/black"
+        android:dividerHeight="1px" />
+
+    <com.parse.ParseImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/full_image"
+        android:visibility="gone" />
+
+  </com.elevenfifty.elevenchat.MessageView>
